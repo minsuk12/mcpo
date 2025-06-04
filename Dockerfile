@@ -33,7 +33,7 @@ RUN uv pip install . && rm -rf ~/.cache
 RUN which mcpo
 
 # Expose port (optional but common default)
-EXPOSE 8000
+EXPOSE 8222
 
 # Entrypoint set for easy container invocation
 ENTRYPOINT ["mcpo"]
